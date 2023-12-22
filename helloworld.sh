@@ -16,3 +16,5 @@ ls ??.dat #lists all files of that extension with two characters
 ls [s].dat #lists all files of that extension, of one character, that start with s
 ls [s1].dat #lists all files of that extension, of one character, that start with s or 1
 ls 1?.dat #lists all files of that extension that start with 1, and followed by any other character
+
+ls -1 | grep 1 #lists files on one line, piped through to grep. Grep reads the input and only outputs the lines that match its argument
